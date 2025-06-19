@@ -10,7 +10,7 @@
     "Health check via GET /api/v1/health-check/",
     "Telegram bot integration for /start command",
     "Background tasks handled by Celery + Redis",
-    "**Telegram ChatBot endpoint via POST /api/v1/chatBot/**"
+    "**Telegram ChatBot endpoint via POST /chat/**"
   ],
   "api_endpoints": {
     "signup": "/api/v1/sign-up/",
@@ -18,7 +18,7 @@
     "refresh_token": "/api/v1/token/refresh/",
     "profile": "/api/v1/profile/",
     "health_check": "/api/v1/health-check/",
-    "chat_bot": "/api/v1/chatBot/"
+    "chat_bot": "/chat/"
   },
   "developer_note": "Use Postman or any API testing tool to test signup/login endpoints. Make sure to include the Authorization header (Bearer token) for protected routes like /profile/."
 }
