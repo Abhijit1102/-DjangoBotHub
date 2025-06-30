@@ -107,4 +107,4 @@ DjangoBotHub/
 | `/api/v1/sign-up/` | POST   | ❌            | Create new user            |
 | `/api/v1/token/`   | POST   | ❌            | Obtain JWT tokens          |
 | `/api/v1/profile/` | GET    | ✅            | Return user profile data   |
-| `/api/v1/health/`  | GET    | ❌            | Server health check        |
+| `/api/v1/health-check/`  | GET    | ❌            | Server health check        |
